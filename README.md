@@ -25,6 +25,5 @@ Some plugins are required to make this stuff works.
 
 ## Contributors
 
-* Design and front-dev by [Opla](http://www.opla-studio.com)
-* Initial back-dev by [CubeStudio](http://www.cubestudio.fr/)
+* Initial website and developements by [Opla](http://www.opla-studio.com) and [CubeStudio](http://www.cubestudio.fr/)
 * WordPress Theme by [Geoffrey Crofte](http://geoffrey.crofte.fr/)
