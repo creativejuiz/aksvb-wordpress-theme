@@ -1,0 +1,14 @@
+.slideshow .slide:before {
+    height: auto;
+}
+
+.slideshow .slide-content {
+    position: absolute;
+    display: block;
+    max-width: 99%;
+    width: 100%;
+    top: 40%;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFF;
+}

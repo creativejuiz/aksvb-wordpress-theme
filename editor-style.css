@@ -1,0 +1,32 @@
+.title-num {
+	font-weight: bold;
+	margin-top: 35px;
+}
+.proverb {
+	font-size: 1.05em;
+	font-weight: bold;
+	font-style: italic;
+}
+.proverb:before {
+	content: "“";
+	margin-right: 4px;
+}
+.proverb:after {
+	content: "”";
+	margin-left: 4px;
+}
+.author {
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 0.925em;
+	letter-spacing: 0.05em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	color: #b40602!important;
+}

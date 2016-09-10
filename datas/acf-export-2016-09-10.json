@@ -1,0 +1,1050 @@
+[
+    {
+        "key": "group_57cc50e352472",
+        "title": "Adresses & Responsables",
+        "fields": [
+            {
+                "key": "field_57cc511cb641b",
+                "label": "Contact",
+                "name": "contact_1",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1
+            },
+            {
+                "key": "field_57cc53fc1f122",
+                "label": "Contact",
+                "name": "contact_2",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1
+            },
+            {
+                "key": "field_57cc54786ca56",
+                "label": "Si\u00e8ge Social",
+                "name": "hq",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1
+            },
+            {
+                "key": "field_57d2dda9972f2",
+                "label": "Lieu principal d'entra\u00eenement",
+                "name": "training_locations",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "aksvb_options"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_57c98fffbf007",
+        "title": "Agencements",
+        "fields": [
+            {
+                "key": "field_57c9907cbfd8a",
+                "label": "Ligne de contenu",
+                "name": "layout",
+                "type": "flexible_content",
+                "instructions": "Ajouter une ligne de contenu en s\u00e9lectionnant la mise en page souhait\u00e9e.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "button_label": "Ajouter une ligne",
+                "min": "",
+                "max": "",
+                "layouts": [
+                    {
+                        "key": "57c9908632620",
+                        "name": "image_left",
+                        "label": "Image + Texte (1\/2)",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_57c990e4bfd8b",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "jpg,jpeg,png"
+                            },
+                            {
+                                "key": "field_57c99128bfd8c",
+                                "label": "Texte",
+                                "name": "text",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 1,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cc261f6c6cd",
+                                "label": "Identifiant",
+                                "name": "id",
+                                "type": "text",
+                                "instructions": "Identifiant utilis\u00e9 pour les liens. Ex : \"le-maitre\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_57cc2c55e9653",
+                                "label": "S\u00e9parateur ?",
+                                "name": "sep",
+                                "type": "true_false",
+                                "instructions": "Ne s'affichera pas s'il s'agit de la derni\u00e8re ligne de la page.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Afficher le s\u00e9parateur apr\u00e8s la ligne ?",
+                                "default_value": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "57cadd7c9d5ca",
+                        "name": "image_right",
+                        "label": "Texte + Image (1\/2)",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_57cadd969d5cb",
+                                "label": "Texte",
+                                "name": "text",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57caddd89d5cc",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "jpg,jpeg,png"
+                            },
+                            {
+                                "key": "field_57cc26616c6ce",
+                                "label": "Identifiant",
+                                "name": "id",
+                                "type": "text",
+                                "instructions": "Identifiant utilis\u00e9 pour les liens. Ex : \"le-maitre\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_57cc2c8ce9654",
+                                "label": "S\u00e9parateur",
+                                "name": "sep",
+                                "type": "true_false",
+                                "instructions": "Ne s'affichera pas s'il s'agit de la derni\u00e8re ligne de la page.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Afficher le s\u00e9parateur apr\u00e8s la ligne ?",
+                                "default_value": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "57cae500617f3",
+                        "name": "image_left_33",
+                        "label": "Image + Texte (1\/3 & 2\/3)",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_57cae500617f4",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "jpg,jpeg,png"
+                            },
+                            {
+                                "key": "field_57cae500617f5",
+                                "label": "Texte",
+                                "name": "text",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "66",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cc26806c6cf",
+                                "label": "Identifiant",
+                                "name": "id",
+                                "type": "text",
+                                "instructions": "Identifiant utilis\u00e9 pour les liens. Ex : \"le-maitre\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_57cc2c9fe9655",
+                                "label": "S\u00e9parateur",
+                                "name": "sep",
+                                "type": "true_false",
+                                "instructions": "Ne s'affichera pas s'il s'agit de la derni\u00e8re ligne de la page.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Afficher le s\u00e9parateur apr\u00e8s la ligne ?",
+                                "default_value": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "57cae538617f6",
+                        "name": "image_right_33",
+                        "label": "Texte + Image (2\/3 & 1\/3)",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_57cae538617f7",
+                                "label": "Texte",
+                                "name": "text",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "66",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cae538617f8",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "jpg,jpeg,png"
+                            },
+                            {
+                                "key": "field_57cc26976c6d0",
+                                "label": "Identifiant",
+                                "name": "id",
+                                "type": "text",
+                                "instructions": "Identifiant utilis\u00e9 pour les liens. Ex : \"le-maitre\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_57cc2cb6e9656",
+                                "label": "S\u00e9parateur",
+                                "name": "sep",
+                                "type": "true_false",
+                                "instructions": "Ne s'affichera pas s'il s'agit de la derni\u00e8re ligne de la page.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Afficher le s\u00e9parateur apr\u00e8s la ligne ?",
+                                "default_value": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "57cadf3994464",
+                        "name": "text_full",
+                        "label": "Texte Pleine Largeur",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_57cadf3994465",
+                                "label": "Texte",
+                                "name": "text",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cc26a76c6d1",
+                                "label": "Identifiant",
+                                "name": "id",
+                                "type": "text",
+                                "instructions": "Identifiant utilis\u00e9 pour les liens. Ex : \"le-maitre\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_57cc2cc4e9657",
+                                "label": "S\u00e9parateur",
+                                "name": "sep",
+                                "type": "true_false",
+                                "instructions": "Ne s'affichera pas s'il s'agit de la derni\u00e8re ligne de la page.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Afficher le s\u00e9parateur apr\u00e8s la ligne ?",
+                                "default_value": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "57cc2d21e9658",
+                        "name": "image_image",
+                        "label": "Image + Image (1\/2)",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_57cc2d21e9659",
+                                "label": "Image",
+                                "name": "image_1",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "jpg,jpeg,png"
+                            },
+                            {
+                                "key": "field_57cc2d5ae965c",
+                                "label": "Image",
+                                "name": "image_2",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "jpg,jpeg,png"
+                            },
+                            {
+                                "key": "field_57cc2d21e965a",
+                                "label": "Identifiant",
+                                "name": "id",
+                                "type": "text",
+                                "instructions": "Identifiant utilis\u00e9 pour les liens. Ex : \"le-maitre\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_57cc2d21e965b",
+                                "label": "S\u00e9parateur",
+                                "name": "sep",
+                                "type": "true_false",
+                                "instructions": "Ne s'affichera pas s'il s'agit de la derni\u00e8re ligne de la page.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Afficher le s\u00e9parateur apr\u00e8s la ligne ?",
+                                "default_value": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "57cc36b5b18fc",
+                        "name": "text_text",
+                        "label": "Texte + Texte (1\/2)",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_57cc36b5b18fd",
+                                "label": "Texte",
+                                "name": "text_1",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cc36b5b18fe",
+                                "label": "Texte",
+                                "name": "text_2",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cc36b5b18ff",
+                                "label": "Identifiant",
+                                "name": "id",
+                                "type": "text",
+                                "instructions": "Identifiant utilis\u00e9 pour les liens. Ex : \"le-maitre\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_57cc36b5b1900",
+                                "label": "S\u00e9parateur",
+                                "name": "sep",
+                                "type": "true_false",
+                                "instructions": "Ne s'affichera pas s'il s'agit de la derni\u00e8re ligne de la page.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Afficher le s\u00e9parateur apr\u00e8s la ligne ?",
+                                "default_value": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    {
+                        "key": "57cc40c6dd080",
+                        "name": "text_text_text",
+                        "label": "Texte + Texte + Texte (1\/3)",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_57cc40c6dd081",
+                                "label": "Texte",
+                                "name": "text_1",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33.333",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cc40c6dd082",
+                                "label": "Texte",
+                                "name": "text_2",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33.333",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cc40e9dd085",
+                                "label": "Texte",
+                                "name": "text_3",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33.333",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1
+                            },
+                            {
+                                "key": "field_57cc40c6dd083",
+                                "label": "Identifiant",
+                                "name": "id",
+                                "type": "text",
+                                "instructions": "Identifiant utilis\u00e9 pour les liens. Ex : \"le-maitre\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_57cc40c6dd084",
+                                "label": "S\u00e9parateur",
+                                "name": "sep",
+                                "type": "true_false",
+                                "instructions": "Ne s'affichera pas s'il s'agit de la derni\u00e8re ligne de la page.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Afficher le s\u00e9parateur apr\u00e8s la ligne ?",
+                                "default_value": 1
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "slug",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": 1,
+        "description": "Syst\u00e8me de page builder personnalis\u00e9"
+    },
+    {
+        "key": "group_57d2de70d8e49",
+        "title": "Autres r\u00e9glages",
+        "fields": [
+            {
+                "key": "field_57d2de8b6196c",
+                "label": "Page en en-t\u00eate du site",
+                "name": "header_link",
+                "type": "post_object",
+                "instructions": "La page \u00e0 placer en en-t\u00eate",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "page"
+                ],
+                "taxonomy": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "return_format": "id",
+                "ui": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "aksvb_options"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_57c716bdbc7a7",
+        "title": "Slides",
+        "fields": [
+            {
+                "key": "field_57c49410b5d70",
+                "label": "Les slides",
+                "name": "slide",
+                "type": "repeater",
+                "instructions": "Il s'agit des diapos pour le slideshow en cours d'\u00e9dition. Ajoutez autant de slides que n\u00e9cessaire. (2 minimum et 5 max pour des raisons de performance)",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "row_min": 2,
+                "row_limit": 5,
+                "layout": "row",
+                "button_label": "Ajouter une slide",
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_57c49485b5d71",
+                        "label": "Titre",
+                        "name": "slide_title",
+                        "type": "text",
+                        "instructions": "Le titre qui sera affich\u00e9 en gros sur la photo",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "formatting": "html",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_57c494b1b5d72",
+                        "label": "Sous-titre",
+                        "name": "slide_subtitle",
+                        "type": "text",
+                        "instructions": "Le texte qui apparait juste sous le titre en caract\u00e8res plus l\u00e9gers",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "formatting": "html",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_57c494d9b5d73",
+                        "label": "Image Big",
+                        "name": "slide_image_big",
+                        "type": "image",
+                        "instructions": "Image",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "full",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_57c49539b5d74",
+                        "label": "Image Medium",
+                        "name": "slide_image_medium",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "full",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_57c49585b5d75",
+                        "label": "Image Small",
+                        "name": "slide_image_small",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "full",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "slideshow"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": 1,
+        "description": ""
+    }
+]
