@@ -27,7 +27,7 @@ get_template_part( 'header' );
 
 						<article class="article grid-50">
 							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-							<p><time datetime="<?php echo get_the_time( 'U' ); ?>"><?php echo get_the_time( 'd/M/Y' ); ?></time></p>
+							<p><time datetime="<?php echo get_the_time( 'U' ); ?>"><?php echo get_the_time( 'd M. Y' ); ?></time></p>
 
 							<div class="the_post_content">
 								<?php the_content(); ?>
