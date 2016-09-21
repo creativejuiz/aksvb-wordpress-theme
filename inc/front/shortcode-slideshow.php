@@ -3,6 +3,10 @@ defined( 'ABSPATH' ) or die( 'Cheatin\' uh?' );
 
 add_shortcode( 'slideshow', 'aksvb_add_slideshow_sc' );
 function aksvb_add_slideshow_sc( $attr ) {
+	
+	if ( ! function_exists( 'have_rows' ) ) {
+		return 'You should install ACF.';
+	}
 
 	$output = '';
 	$attr = shortcode_atts( array(

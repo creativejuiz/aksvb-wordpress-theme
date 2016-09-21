@@ -13,6 +13,7 @@ function aksvb_logo( $color = 'y' ) {
 		<div class="logo-aksvb-' . $color . '"></div>
 		<p class="title">
 			' . __( 'School of Kung Fu Shaolin Vu Ba', 'aksvb' ) . '
+		</p>
 		<p class="subtitle">
 			' . __( 'Sino-Vietnamese Traditionnal Martial Arts ', 'aksvb' ) . '
 		</p>
@@ -48,6 +49,7 @@ function get_aksvb_hr() {
  * @author Geoffrey Crofte
  */
 function aksvb_lang_switcher() {
+	if ( function_exists( 'icl_get_languages' ) ) {
 ?>
 	<div id="control-lang" class="lang-menu">
 		<?php
@@ -70,6 +72,7 @@ function aksvb_lang_switcher() {
 		</ul>
 	</div>
 <?php
+	} // Eo if function exists
 }
 
 /**
@@ -92,6 +95,11 @@ function aksvb_edit() {
 }
 
 function aksvb_the_content() {
+	if ( ! function_exists( 'get_field' ) ) {
+		echo 'You should install ACF';
+		return;
+	}
+
 	$nb_layouts = count( get_field( 'layout' ) );
 
 	if ( have_rows( 'layout' ) ) {
