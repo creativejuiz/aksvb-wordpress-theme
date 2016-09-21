@@ -72,6 +72,7 @@
 
 						<a href="#top" class="top">
 							<span></span>
+							<span class="visuallyhidden"><?php _e( 'Go to top', 'aksvb' ); ?></span>
 							<p id="triangle-mot">Justesse</p>
 						</a>
 

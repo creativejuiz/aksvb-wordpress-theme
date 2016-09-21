@@ -46,7 +46,7 @@ $page_title = get_bloginfo( 'title' ) . ' - ' . get_bloginfo( 'description' );
 		<div class="header">
 			<div class="header-top">
 				<div class="header-options">
-					<a class="facebook-logo hide-on-minimobile" href="https://www.facebook.com/pages/AKSVB-Association-Kung-Fu-Shaolin-Vu-Ba-de-Strasbourg/132182993618772" title="Page Facebook de l'AKSVB Strasbourg"></a>
+					<a class="facebook-logo hide-on-minimobile" href="https://www.facebook.com/pages/AKSVB-Association-Kung-Fu-Shaolin-Vu-Ba-de-Strasbourg/132182993618772" title="Page Facebook de l'AKSVB Strasbourg"><span class="visuallyhidden">Facebook</span></a>
 
 					<div id="control-menu-mobile" class="control-menu-mobile hide-on-desktop">
 						<span></span>
