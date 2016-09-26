@@ -9,7 +9,18 @@ defined( 'ABSPATH' ) or die( 'Cheatin\' uh?' );
  * @author Geoffrey Crofte
  */
 function aksvb_logo( $color = 'y' ) {
-	echo '
+	echo get_aksvb_logo( $color );
+}
+
+/**
+ * Returns the logo block (image + texts )
+ * 
+ * @return (string) HTML string for the logo block
+ * @since  1.0
+ * @author Geoffrey Crofte
+ */
+function get_aksvb_logo( $color = 'y' ) {
+	return '
 		<div class="logo-aksvb-' . $color . '"></div>
 		<p class="title">
 			' . __( 'School of Kung Fu Shaolin Vu Ba', 'aksvb' ) . '

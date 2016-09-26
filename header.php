@@ -64,16 +64,22 @@ $page_title = get_bloginfo( 'title' ) . ' - ' . get_bloginfo( 'description' );
 					<?php
 					}
 
-					// we don't have multilingual blog, so…
+					// we don't have multilingual blog, so don't show lang-switcher in blog page case
 					if ( ! is_home() ) {
 						aksvb_lang_switcher();
 					}
 					?>
 				</div>
 
-				<a class="headline" href="<?php echo get_home_url(); ?>">
-					<?php aksvb_logo(); ?>
-				</a>
+				<?php
+					$logo = get_aksvb_logo();
+
+					if ( ! is_front_page() ) {
+						echo '<a class="headline" href="<?php echo get_home_url(); ?>">' . $logo . '</a>';
+					} else {
+						echo '<span class="headline">' . $logo . '</span>';
+					}
+				?>
 			</div><!-- .header-top -->
 
 		<?php
