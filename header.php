@@ -75,7 +75,7 @@ $page_title = get_bloginfo( 'title' ) . ' - ' . get_bloginfo( 'description' );
 					$logo = get_aksvb_logo();
 
 					if ( ! is_front_page() ) {
-						echo '<a class="headline" href="<?php echo get_home_url(); ?>">' . $logo . '</a>';
+						echo '<a class="headline" href="' . get_home_url() . '">' . $logo . '</a>';
 					} else {
 						echo '<span class="headline">' . $logo . '</span>';
 					}
